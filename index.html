@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>МЛИНЦІ НА ПЛОЩІ БЕРНАРДИНІВ</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="container" id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-time">Години роботи
+                <br>7:00-22:00</a>
+            <div>
+                <a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
+                    <i class="fas fa-shopping-cart"></i>
+                    Кошик<span id="cart-badge" class="badge badge-dark"></span>
+                    </a>
+            </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Млинці">Млинці</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Кава та напої">Кава та напої</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Акції">Акції</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Контакти">Контакти</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="jumbotron">      
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/products/coffe1.png" class="d-block w-100" alt="slide1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Найсмачніші млинці та кава у Львові</h5>
+                <p>P.S. Зроблено з любовью</p>
+            </div>
+
+            </div>
+            <div class="carousel-item">
+            <video src="video/crap.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'class="d-block w-100" alt="slide2">
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+
+        </div>
+        <h1 align="center">Меню</h1>
+        <section>
+            <h3 id="products" align="center"><a name="Млинці">Млинці</a></h3>
+            <div class="row products-container">
+               <!--Products are dynamically generated here-->
+            </div>
+        </section>
+    </main>
+    
+        <br><h3 id="products" align="center"><a name="Кава та напої"><label>Кава та напої</label></a></h3>
+            <div class="wrapper">
+            
+            <div class="box1"> 
+            <form method="POST" action="js/cart.js">
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Еспрессо">Еспрессо
+                </lable>    
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Американо">Американо
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Капучіно">Капучіно
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Латте">Латте
+                </lable>  
+                <br>
+                <lable> 
+                <input type="radio" name="Кава та напої" value="Какао">Какао
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Флет-вайт">Флет-вайт
+                </lable>
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Чай">Чай
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Кава та напої" value="Преміум кава">Преміум кава
+                </lable>
+
+                <button type="button" class="btn1 btn-primary btn-lg btn-block">Обрати</button>
+
+             </form></div>
+   <div class="box2">
+            S	M	XXL             
+                <br>15	23                  
+                <br>15	23             
+                <br>20	30	40                 
+                <br>24	32	45                               
+                <br>24	28	40       
+                <br>24          
+                <br>	15	20            	
+                <br>25	35	
+   </div>
+    <div class="box3">
+      <br>
+   <img src="img/coffe2.jpg" width="50" height="200" class="card-img-top" alt="...">
+   </div>
+   <div class="box4">
+   <br>
+      <img src="img/coffe3.jpg" width="50" height="200" class="card-img-top" alt="...">
+   </div>
+</div>
+    <h3 id="products" align="center"><a name="Акції">Акції</a></h3>
+    <ul class="list-unstyled">
+  <li class="media">
+    <img src="img/me.jpg" width="120" height="120" class="mr-2" alt="energeticMonday">
+    <div class="media-body">
+      <h5 class="mt-0 mb-2">Енергійний понеділок</h5>
+        <small>Умови простіше не буває: даруємо безкоштовний напій розміру М випадковому коментатору у нашому інстаграмі 
+        <a href="https://www.instagram.com/pancakes.lviv">https://www.instagram.com/pancakes.lviv.</a>
+        Просто залишіть свій коментар і у понеділок о 13:00 ми розіграємо безкоштовну каву/чай /гарячий шоколад на ваш вибір😋
+         Розіграш буде в сторіз.🎉
+        Коментуємо тільки один раз❤️</small>
+    </div>
+  </li>
+  <li class="media my-4">
+    <img src="img/kl.jpg" width="120" height="190" class="mr-2" alt="loyalCard">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Карточка лояльності</h5>
+      <small>Кожен сьомий млинець та кожна сьома кава у подарунок 🎉</small>
+    </div>
+  </li>
+</ul>
+    
+    <h3 id="products" align="center"><a name="Контакти">Контакти</a></h3>
+    <ul class="list-unstyled">
+  <li class="media my-4">
+ 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1680285271273!2d24.028643015438423!3d49.83930023909251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e845076e5%3A0x7d97e90a45601f7c!2z0YPQu9C40YbQsCDQktCw0LvQvtCy0LAsIDIsINCb0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1582229732683!5m2!1sru!2sua" width="50%" height="50%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+    <div class="media-body">
+      <h6 class="mt-0 mb-1">Вул. Валова, 2</h6>
+
+  </li>
+  <li class="media my-4">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.235476550393!2d24.032481018316506!3d49.838032838709864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6944546547%3A0x4a33564d85a2c516!2z0KHQvtCx0L7RgNC90LDRjyDQv9C7LiwgMTAsINCb0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1582229442305!5m2!1sru!2sua" width="50%" height="50%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Площа Соборна, 10</h5>
+    </div>
+  </li>
+</ul>
+<h6 align="center">+38 (050)-370-65-78</h6>
+<footer>
+			<div class="container text-center">
+				<div class="social">
+					<p1><a href="https://www.facebook.com/pg/pancakes.lviv/photos/?ref=page_internal"><img src="img/fb.png" width="50" height="50" alt="FB"></a>
+					<a href="https://https://www.instagram.com/pancakes.lviv"><img src="img/insta.png" width="50" height="50" alt="instagram"></a></p1>
+				</div>
+			</div>
+		</footer>
+
+    
+
+    <!-- Modal Product Info -->
+    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img class="card-img-top" src="" alt="">
+              <h4 class="card-title"></h4>
+              <p class="card-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрити</button>
+            <button class="btn btn-primary buy" data-id="id">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Cart -->
+    <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Кошик</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form class="form-contacts">
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Ваше ім'я:</label>
+                  <input class="form-control col-8" type="text" id="client-name" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-phone" class="col-4 col-form-label">Ваш номер телефону:</label>
+                  <input class="form-control col-8" type="phone" id="client-phone" required>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрити</button>
+            <button class="btn btn-primary order">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/products-service.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>    
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>
